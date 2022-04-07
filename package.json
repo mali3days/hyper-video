@@ -63,7 +63,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "node --max-old-space-size=12000 scripts/start.js",
+    "video": "serve -p 5000 --cors src/demo",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },

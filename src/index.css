@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.vjs-text-track-display {
+    pointer-events: auto;
+}
+  
+.audio_play_button:hover {
+    border: 1px solid #ccc;
+    color: #000
+}
+
+.vjs-subs .word {
+    cursor: pointer;
+    border-bottom: 1px dotted #fff
+}
+
+.vjs-subs .word:hover {
+    color: white;
+    background-color: #4285f4 !important;
+    text-decoration: none
+}
