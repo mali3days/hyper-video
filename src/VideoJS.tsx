@@ -48,7 +48,16 @@ export default class VideoPlayer extends React.Component {
             width="600"
             height="300"
             ref={(node: HTMLVideoElement) => (this.videoNode = node)}
-          />
+          >
+            <track
+              id="trackk"
+              kind="captions"
+              src="http://192.168.0.104:5000/The Lord of the Rings - The Fellowship of the Ring - Extended.vtt"
+              srcLang="en"
+              label="English"
+              default
+            />
+          </video>
         </div>
         <div className="c-player__controls">
           <button>Play</button>
