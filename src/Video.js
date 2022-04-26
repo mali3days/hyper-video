@@ -1,4 +1,4 @@
-import VideoPlayer from './VideoJS'; // point to where the functional component is stored
+import { VideoPlayer } from './VideoPlayer'; // point to where the functional component is stored
 
 const videoJsOptions = {
   autoplay: false,
